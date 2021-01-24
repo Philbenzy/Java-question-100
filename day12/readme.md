@@ -47,7 +47,7 @@
 
    如图：
 
-   ![image-20210124110140616](C:\Users\Wzy\AppData\Roaming\Typora\typora-user-images\image-20210124110140616.png)
+   ![image-20210124110140616](https://github.com/Philbenzy/Java-question-100/blob/main/day12/img/image.png)
 
    
 
