@@ -166,15 +166,21 @@ IO流
     - InputStreamReader
       - FileReader
     - BufferedReader（高效读入类）
-      - 特有方法：String readLine()一次读取一行
-  - 输出流 Writer
+      - 特有方法：String readLine() 一次读取一行
+  - 输出流 Writer 
     - OutputStreamWriter
       - FileWriter
     - BufferedWriter（高效写入类）
       - 特有方法：void newLine()：写一个换行符
       - 特有方法：void write(String line)：一次写一个字符串
 
-  
+
+
+
+注意：输出流：Writer、OutputStream的flush()方法与close()方法区别
+
+* close()关闭流对象，但是先刷新一次缓冲区。关闭之后，流对象不可以继续再使用了。
+* flush()仅仅刷新缓冲区,刷新之后，流对象还可以继续使用。
 
 ### 3:IO案例
 （1）复制文本文件 5种方式
