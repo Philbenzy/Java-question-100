@@ -1,0 +1,5 @@
+// ÅäÖÃÎÄ¼ş
+
+ClassName=test3.Teacher
+Method=work
+
